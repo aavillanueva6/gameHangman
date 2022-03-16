@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./assets/styles/style.css" />
+  </head>
+  <body>
+    <section class="hidden" id="preGame">
+      <h1 class="gameTitle">Hangman</h1>
+      <p>This is the pre Game Screen</p>
+      <button id="startGameButton">Start Game</button>
+    </section>
+
+    <section class="hidden" id="inGame">
+      <h1 class="gameTitle">Hangman</h1>
+      <p>This is the in Game Screen</p>
+      <p>Time Left: <span id="inGameTime">0</span></p>
+      <p id="inGameWord">word to guess goes here</p>
+      <button id="wrongGuessButton">Wrong Guess</button>
+    </section>
+
+    <section class="hidden" id="postGame">
+      <h1 class="gameTitle">Hangman</h1>
+      <p>This is the post Game Screen</p>
+      <button id="restartGameButton">Restart Game</button>
+      <button id="returnToStartButton">Return to Start</button>
+    </section>
+
+    <script src="./assets/script/script.js"></script>
+  </body>
+</html>
